@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 12px;
+    font-family: poppinsmedium;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(0, 106, 148);
+    transition: 0.3s all;
+}
+
+#btn-assinatura{
+    border: 2px solid rgb(0, 106, 148);
+    padding: 8px;
+    border-radius: 15px;
+    border-width: 3px;
+}
+#btn-assinatura:hover{
+    color: white;
+    background-color: rgb(0, 106, 148);
+
+}
+
+sc{
+    color: rgb(0, 106, 148)
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+form [type='submit']{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(0, 106, 148);
+    font-family: poppinsmedium;
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 25px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border-width: 3px;
+}
+
+p{
+    line-height: 20px;
+    max-width: 600px;
+    font-family: poppinslight;
+    padding-right: 40px;
+}
+
+img{
+    width: 550px;
+}
